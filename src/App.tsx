@@ -12,11 +12,11 @@ function App() {
         
         <header className="mb-8 flex items-center gap-3">
           <Calculator className="h-8 w-8 text-primary" />
-          <h1 className="text-3xl font-bold tracking-tight">Investment Calculator</h1>
+          <h1 className="text-[20px] font-bold tracking-tight">Systematic Investment Plan Calculator</h1>
         </header>
 
         <Tabs defaultValue="sip" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4">
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 gap-2 bg-transparent mb-12">
             <TabsTrigger value="sip">SIP Calculator</TabsTrigger>
             <TabsTrigger value="lumpsum">Lumpsum Calculator</TabsTrigger>
             <TabsTrigger value="advanced">Advanced SIP</TabsTrigger>
